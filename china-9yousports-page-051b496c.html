@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>九游体育 · 稳定入口与页面说明</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+      background: #f7f9fc;
+      color: #1e293b;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* --- hero --- */
+    .hero {
+      padding: 72px 0 48px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #0b1c38;
+      margin-bottom: 12px;
+    }
+    .hero .sub {
+      font-size: 1.1rem;
+      color: #5b6f82;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+    .hero .badge {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 6px 18px;
+      background: #eef2f6;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      color: #2c3e50;
+      letter-spacing: 0.3px;
+    }
+
+    /* --- 通用卡片区 --- */
+    section {
+      padding: 40px 0;
+    }
+    .section-label {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #1e2a41;
+      margin-bottom: 18px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #dce3ed;
+    }
+
+    /* 优势区 — 极简条目 */
+    .advantage-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px 36px;
+      margin-top: 12px;
+    }
+    .advantage-item {
+      flex: 1 1 180px;
+    }
+    .advantage-item .num {
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: #2d4b7a;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+    .advantage-item p {
+      color: #3f556a;
+      font-size: 0.95rem;
+    }
+
+    /* 说明区 — 窄文本 */
+    .desc-block p {
+      margin-bottom: 18px;
+      font-size: 0.98rem;
+      color: #253544;
+    }
+    .desc-block strong {
+      font-weight: 500;
+      color: #1c3b5e;
+    }
+
+    /* FAQ 摘要 */
+    .faq-list {
+      margin: 28px 0 0;
+    }
+    .faq-item {
+      margin-bottom: 22px;
+    }
+    .faq-item .q {
+      font-weight: 500;
+      color: #1a2f47;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .faq-item .a {
+      color: #415a6f;
+      font-size: 0.95rem;
+      padding-left: 0;
+    }
+
+    /* 底部 */
+    .footer-note {
+      padding: 48px 0 56px;
+      border-top: 1px solid #dfe6ef;
+      font-size: 0.9rem;
+      color: #5d7085;
+      text-align: center;
+    }
+    .footer-note a {
+      color: #1f3a5c;
+      text-decoration: none;
+      border-bottom: 1px solid #b3c2d6;
+      transition: border-color 0.2s;
+    }
+    .footer-note a:hover {
+      border-color: #1f3a5c;
+    }
+    .footer-note .sep {
+      margin: 0 6px;
+      color: #a9b9cc;
+    }
+
+    /* 响应式 */
+    @media (max-width: 520px) {
+      .hero h1 { font-size: 1.8rem; }
+      .hero .sub { font-size: 1rem; }
+      .advantage-grid { gap: 20px 24px; }
+      .advantage-item { flex: 1 1 100%; }
+      .page-wrap { padding: 0 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <!-- hero -->
+    <div class="hero">
+      <h1>九游体育</h1>
+      <div class="sub">一个偏向安静与稳定的信息页，帮助您了解平台的定位与使用方式。</div>
+      <div class="badge">从入口到说明 · 温和的指引</div>
+    </div>
+
+    <!-- 优势区 -->
+    <section>
+      <div class="section-label">稳定 · 入口</div>
+      <div class="advantage-grid">
+        <div class="advantage-item">
+          <span class="num">01</span>
+          <p>长期维护的访问地址，降低寻找成本</p>
+        </div>
+        <div class="advantage-item">
+          <span class="num">02</span>
+          <p>页面结构清晰，适合首次了解</p>
+        </div>
+        <div class="advantage-item">
+          <span class="num">03</span>
+          <p>轻量说明，避免信息过载</p>
+        </div>
+        <div class="advantage-item">
+          <span class="num">04</span>
+          <p>兼容多种设备，保持阅读一致性</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 说明区：从稳定入口与页面说明展开 -->
+    <section class="desc-block">
+      <div class="section-label">页面说明</div>
+      <p>
+        无论是初次接触还是日常使用，一个可靠的入口可以减少不必要的困扰。这里整理了关于
+        <a href="https://china-9yousports.com">九游体育</a> 的基础信息与访问方式。
+        本页面以简洁的落地形式呈现，重点在于说明平台的使用逻辑，而非广告渲染。
+      </p>
+      <p>
+        您可以通过上方链接直接前往 <strong>九游体育</strong> 的页面。该地址长期稳定，
+        建议将其加入浏览器书签或收藏夹，方便日后快速访问。如果您是第一次到达，
+        可以先通过下方的常见疑问部分了解大致情况。
+      </p>
+      <p>
+        整个站点专注于体育相关内容的展示与互动，界面直观，功能分区明确。
+        对多数用户来说，花几分钟熟悉布局后即可顺畅使用。
+      </p>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section>
+      <div class="section-label">常见疑问 · 摘要</div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <span class="q">Q：如何确认访问的是最新地址？</span>
+          <span class="a">建议直接使用本页提供的链接，或通过可靠渠道获取。<a href="https://china-9yousports.com">九游体育</a> 的域名保持统一，定期检查即可。</span>
+        </div>
+        <div class="faq-item">
+          <span class="q">Q：页面加载较慢怎么办？</span>
+          <span class="a">可先检查网络环境，并尝试刷新。若持续异常，请稍后再试，临时波动通常不影响整体稳定。</span>
+        </div>
+        <div class="faq-item">
+          <span class="q">Q：是否需要对浏览器做特殊设置？</span>
+          <span class="a">不需要。主流浏览器均能正常显示，建议保持浏览器为较新版本以获得更好体验。</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 底部链接 -->
+    <div class="footer-note">
+      <a href="https://china-9yousports.com">九游体育</a>
+      <span class="sep">·</span>
+      页面仅作介绍用途
+      <span class="sep">·</span>
+      信息说明
+    </div>
+  </div>
+</body>
+</html>
